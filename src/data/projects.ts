@@ -17,14 +17,14 @@ export type Project = {
   githubUrl?: string;
 };
 
-// Project names and public links were supplied by Saeda. Descriptions reflect the
-// visible live pages; project-specific technology stacks and repository links need confirmation.
+// Project descriptions reflect the supplied live pages. Technology stacks are
+// confirmed from the matching public repositories and their documentation.
 export const projects: Project[] = [
   {
     slug: "bazardor",
     title: "BazarDor — বাজার দর",
     description: "A Bengali-language dashboard showing everyday product prices and market price changes.",
-    technologies: [],
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Better Auth", "MongoDB"],
     accent: "sage",
     screenshot: "/bazardor.png",
     imageWidth: 3420,
@@ -41,7 +41,7 @@ export const projects: Project[] = [
     slug: "fitlog",
     title: "FitLog",
     description: "A workout library and planning interface for browsing exercises and organizing a training plan.",
-    technologies: [],
+    technologies: ["Next.js", "React", "JavaScript", "Tailwind CSS"],
     accent: "lavender",
     screenshot: "/fitlog.png",
     imageWidth: 3420,
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     slug: "dev-conf",
     title: "Dev Conf",
     description: "A developer technology catalog for exploring tools and assembling a project stack.",
-    technologies: [],
+    technologies: ["HTML5", "CSS3"],
     accent: "sand",
     screenshot: "/devstack.png",
     imageWidth: 3420,

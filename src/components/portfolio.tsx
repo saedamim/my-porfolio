@@ -540,13 +540,16 @@ export default function Portfolio() {
                     </div>
                     <h3>{project.title}</h3>
                     <p>{project.description}</p>
-                    <div className="project-tech" aria-label="Technology stack">
+                    <div className="project-tech-section" aria-label="Tech Stack">
+                      <span className="project-tech-label">Tech Stack</span>
                       {project.technologies.length > 0 ? (
-                        project.technologies.map((tech) => (
-                          <span key={tech}>{tech}</span>
-                        ))
+                        <div className="project-tech">
+                          {project.technologies.map((tech) => (
+                            <span key={tech}>{tech}</span>
+                          ))}
+                        </div>
                       ) : (
-                        <span>Technology stack not confirmed</span>
+                        <span className="project-tech-unconfirmed">Not confirmed</span>
                       )}
                     </div>
                     <div className="project-links">
@@ -574,7 +577,7 @@ export default function Portfolio() {
               ))}
             </div>
             <p className="projects-footnote">
-              Technology stacks and repository links are omitted until confirmed from each project’s source code.
+              Technology stacks are based on each project’s public source repository.
             </p>
           </div>
         </section>
