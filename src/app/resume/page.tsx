@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, Code2, Mail } from "lucide-react";
 import { projects } from "@/data/projects";
+import PrintResumeButton from "./print-resume-button";
 
 export const metadata: Metadata = {
   title: "Resume",
@@ -23,7 +24,10 @@ export default function ResumePage() {
           <Link className="back-link" href="/#home">
             <ArrowLeft size={16} /> Back to Portfolio
           </Link>
-          <span className="resume-format">HTML resume</span>
+          <div className="resume-toolbar-actions">
+            <span className="resume-format">HTML resume</span>
+            <PrintResumeButton />
+          </div>
         </div>
 
         <article className="resume-document" aria-labelledby="resume-title">
@@ -125,9 +129,9 @@ export default function ResumePage() {
           </footer>
         </article>
         <p className="resume-pdf-note">
-          A PDF version is not available yet. This page presents the resume as
-          HTML; add a final PDF at <strong>public/Saeda-Yeasmin-Resume.pdf</strong>
-          when ready.
+          No PDF file is present. Use “Print / Save as PDF” above to export this
+          verified HTML resume, or add your final PDF at{" "}
+          <strong>public/Saeda-Yeasmin-Resume.pdf</strong> when available.
         </p>
       </div>
     </main>

@@ -370,20 +370,27 @@ export default function Portfolio() {
             </div>
             <div className="about-copy">
               <p className="lead">
-                I’m an aspiring frontend developer learning how the web works
-                and building projects to strengthen my practical skills.
+                I’m an aspiring frontend developer building my skills through
+                hands-on web projects while studying Mathematics at National
+                University, Bangladesh.
               </p>
               <p>
-                Frontend development brings together the things I enjoy: visual
-                thinking, careful problem-solving, and the satisfaction of
-                making an idea interactive. I’m especially interested in
-                responsive, accessible interfaces that feel considered on every
-                screen.
+                I enjoy the frontend because it combines visual thinking with
+                problem-solving. Through projects such as BazarDor, FitLog, and
+                Dev Conf, I’ve been exploring React, Next.js, JavaScript,
+                TypeScript, and responsive styling. I’m especially interested
+                in interfaces that are clear and comfortable to use across
+                screen sizes.
               </p>
               <p>
-                I enjoy making interfaces responsive and easy to use. When I
-                meet a challenge, I break it into smaller questions, test ideas,
-                and learn from the result.
+                When something is unfamiliar, I break it into smaller questions,
+                try an approach, and learn from what happens. My current goal is
+                to keep strengthening my practical skills as I work toward a
+                career in frontend development.
+              </p>
+              <p className="placeholder-note">
+                Outside programming, I enjoy [add your hobbies or interests].
+                This personal detail is left for Saeda to complete.
               </p>
               <a className="inline-link" href="#contact">
                 Let’s connect <ArrowRight size={16} />

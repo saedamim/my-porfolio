@@ -906,8 +906,9 @@ textarea:focus-visible {
 .contact-details > div,
 .contact-details > a {
   display: grid;
-  grid-template-columns: 22px 75px auto;
+  grid-template-columns: 22px 75px minmax(0, 1fr);
   align-items: center;
+  min-width: 0;
   gap: 9px;
   font-size: 11px;
   color: #ceddce;
@@ -918,6 +919,8 @@ textarea:focus-visible {
 .contact-details strong {
   font-weight: 500;
   color: white;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .contact-social-note {
   color: #b5cbbb;
@@ -1227,11 +1230,12 @@ textarea:focus-visible {
 .feature-list li {
   display: flex;
   gap: 9px;
-  align-items: center;
+  align-items: flex-start;
 }
 .feature-list svg {
   color: var(--green);
   flex: none;
+  margin-top: 3px;
 }
 .detail-two-col {
   display: grid;
@@ -1278,7 +1282,19 @@ textarea:focus-visible {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 14px;
   margin-bottom: 20px;
+}
+.resume-toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.resume-print-button {
+  min-height: 40px;
+  padding: 0 14px;
+  font-size: 11px;
+  cursor: pointer;
 }
 .resume-format {
   color: var(--muted);
@@ -1621,6 +1637,14 @@ textarea:focus-visible {
   }
   .resume-wrap {
     width: calc(100% - 32px);
+  }
+  .resume-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .resume-toolbar-actions {
+    width: 100%;
+    justify-content: space-between;
   }
   .resume-entry-heading {
     align-items: flex-start;
