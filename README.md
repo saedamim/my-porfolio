@@ -4,7 +4,7 @@ A responsive personal portfolio website showcasing my introduction, technical sk
 
 ## 🌐 Live Website
 
-**Live Link:** [Add your deployed portfolio URL here]
+**Live Link:** my-porfolio-meem11.vercel.app/
 
 ## ✨ Features
 
@@ -42,16 +42,16 @@ A project focused on displaying product and market-price information.
 A web project focused on fitness-related tracking and presentation.
 
 - **Technologies:** Next.js, React, JavaScript, Tailwind CSS
-- **Live Demo:** [Add project URL]
-- **GitHub:** [Add repository URL]
+- **Live Demo:** a6-fitlog-repo.vercel.app/
+- **GitHub:** https://github.com/saedamim/a6-fitlog-repo.git
 
 ### 3. Dev Conf
 
 A conference-themed website built using fundamental web technologies.
 
 - **Technologies:** HTML5, CSS3
-- **Live Demo:** [Add project URL]
-- **GitHub:** [Add repository URL]
+- **Live Demo:** frolicking-truffle-0d6ef9.netlify.app/
+- **GitHub:** https://github.com/saedamim/devstack-app-repository.git
 
 ## 🎓 Education
 
@@ -60,7 +60,7 @@ A conference-themed website built using fundamental web technologies.
 
 ## 📬 Contact
 
-- **Email:** [Add your email address]
+- **Email:** saedayeasmin2003@gmail.com
 - **GitHub:** [Saeda Yeasmin](https://github.com/saedamim)
 - **LinkedIn:** [Connect on LinkedIn](https://linkedin.com/in/saeda-yeasmin-53b704367)
 
