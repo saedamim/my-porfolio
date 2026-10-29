@@ -389,7 +389,7 @@ export default function Portfolio() {
                 career in frontend development.
               </p>
               <p className="placeholder-note">
-                Outside programming, I enjoy [add your hobbies or interests].
+                Outside programming, I enjoy reading mystry and thriller story books.
                 This personal detail is left for Saeda to complete.
               </p>
               <a className="inline-link" href="#contact">
